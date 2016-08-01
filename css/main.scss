@@ -1,0 +1,14 @@
+$about-color: #f17c72;
+$about-sub-color: #e6655e;
+$services-color: #32ac97;
+$services-sub-color: #46dcc7;
+$clients-color: #7f4c76;
+$contacts-color: #3f9fc9;
+$footer-color: #334960;
+$footer-text-color: #373b47;
+
+@import 'about';
+@import 'clients';
+@import 'contacts';
+@import 'services';
+@import 'footer';
