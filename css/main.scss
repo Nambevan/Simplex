@@ -7,6 +7,11 @@ $contacts-color: #3f9fc9;
 $footer-color: #334960;
 $footer-text-color: #373b47;
 
+.sprite{
+  background: url("../img/sprite.png") no-repeat;
+}
+
+@import 'home';
 @import 'about';
 @import 'clients';
 @import 'contacts';
