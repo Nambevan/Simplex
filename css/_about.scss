@@ -1,0 +1,111 @@
+.about_content{
+    display: none;
+    .about_title{
+      color: #ffffff;
+      font-size: 35px;
+      position: absolute;
+      margin-left: 60px;
+      text-align: center;
+      top: 178px;
+    }
+    .about_text{
+      color: #ffffff;
+      position: absolute;
+      margin-left: 10px;
+      text-align: center;
+      top: 230px;
+      left: 14%;
+          a{
+            color: #ff0000;
+            text-decoration: none;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+    }
+    .team_item_1{
+      margin-top: 401px!important;
+      margin-left: -45px;
+    }
+    .team_item:hover{
+      transform: scale(1.05 , 1.05);
+    }
+    .team_item{
+      transition: transform .3s;
+      width: 20%;
+      height: 330px;
+      border: 3px solid #efa29e;
+      background-color: #e6655e;
+      box-sizing: border-box;
+      padding: 20px 0 0 18px;
+      float: left;
+      margin-right: 20px;
+      margin-top: 334px;
+          .photo_1{
+            background: url("../img/people/people_1.png") no-repeat;
+            background-position: center 0;
+          }
+          .photo_2{
+            background: url("../img/people/people_2.png") no-repeat;
+            background-position: center 0;
+          }
+          .photo_3{
+            background: url("../img/people/people_3.png") no-repeat;
+            background-position: center 0;
+          }
+          .photo_4{
+            background: url("../img/people/people_4.png") no-repeat;
+            background-position: center 0;
+          }
+          span{
+            color: #ffffff;
+            text-align: center;
+            display: block;
+          }
+         .team_name{
+            font-size: 20px;
+            width: 150px;
+         }
+         .team_position{
+            font-size: 15px;
+            width: 150px;
+
+         }
+         .team_photo{
+            width: 150px;
+            height: 150px;
+            border: 3px solid #efa29e;
+            background-color: #e6655e;
+            box-sizing: border-box;
+            border-radius:50%;
+            overflow: hidden;
+
+         }
+         ul{
+           margin-top: 50px;
+            li{
+              cursor: pointer;
+              width: 32px;
+              height: 32px;
+              float: left;
+              margin-right: 7px;
+            }
+            li:hover{
+              opacity: .8;
+            }
+            li:nth-child(1){
+              background-position: -185px -9px;
+            }
+            li:nth-child(2){
+              background-position: -224px -9px;
+            }
+            li:nth-child(3){
+              background-position: -263px -9px;
+            }
+            li:nth-child(4){
+              background-position: -303px -9px;
+            }
+         }
+    }
+
+}

@@ -1,1 +1,81 @@
 
+.clients_content{
+  display: none;
+  .clients_title{
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 275px;
+    text-align: center;
+    top: 178px;
+  }
+
+  .clients_item_1_row{
+    margin-top: 250px;
+  }
+  .clients_item_1{
+    margin-top: 316px;
+    margin-left: -106px;
+  }
+  .clients_item:hover{
+    transform: scale(1.05 , 1.05);
+  }
+  .clients_item{
+    width: 220px;
+    height: 250px;
+    float: left;
+    margin-right: 15px;
+    transition: transform .3s;
+
+       .clients_photo{
+         width: 220px;
+         height: 100px;
+         margin-bottom: 10px;
+       }
+       .clients_photo_1{
+         background-image: url("../img/brand/brand_1.png");
+       }
+       .clients_photo_2{
+         background-image: url("../img/brand/brand_2.png");
+       }
+       .clients_photo_3{
+         background-image: url("../img/brand/brand_3.png");
+       }
+       .clients_photo_4{
+         background-image: url("../img/brand/brand_4.png");
+       }
+       .clients_photo_5{
+         background-image: url("../img/brand/brand_5.png");
+       }
+       .clients_photo_6{
+         background-image: url("../img/brand/brand_6.png");
+       }
+       .clients_photo_7{
+         background-image: url("../img/brand/brand_7.png");
+       }
+       .clients_photo_8{
+         background-image: url("../img/brand/brand_8.png");
+       }
+       span{
+         color: #ffffff;
+         text-align: center;
+         display: block;
+         width: 220px;
+         margin-bottom: 10px;
+       }
+       .clients{
+         font-size: 20px;
+       }
+       .clients_sub_text{
+         font-size: 15px;
+       }
+       a{
+         text-decoration: none;
+         color: #46dcc7;
+         margin-left: 70px;
+         margin-top: 20px;
+       }
+  }
+
+
+}

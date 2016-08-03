@@ -1,5 +1,5 @@
 .main_bg{
-    background-image: url("../img/backgroung.png");
+    background-image: url("../img/background.png");
     background-repeat: no-repeat;
     height:945px;
     background-size: cover;
@@ -7,6 +7,7 @@
       .content_wrap{
         margin:0 auto;
         width: 950px;
+        position: relative;
           .main_logo{
             float: left;
             width: 110px;
@@ -47,21 +48,22 @@
               width: 24%;
               height: 75px;
               float: left;
-            }
-            li:hover{
               opacity:.8;
             }
+            li:hover{
+              opacity:1;
+            }
             li:nth-child(1){
-              background-position: 0 -46px;
+              background-position: 7px -48px;
             }
             li:nth-child(2){
-              background-position: -86px -46px;
+              background-position: -80px -48px;
             }
             li:nth-child(3){
-              background-position: -173px -46px;
+              background-position: -169px -45px;
             }
             li:nth-child(4){
-              background-position: -264px -46px;
+              background-position: -256px -45px;
             }
           }
       }
