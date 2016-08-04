@@ -1,1 +1,97 @@
 
+.contacts_content {
+  display: none;
+     div{
+       float: left;
+     }
+     .contacts_title{
+       color: #ffffff;
+       font-size: 35px;
+       position: absolute;
+       margin-left: 250px;
+       text-align: center;
+       top: 178px;
+     }
+     .contacts_text{
+       color: #ffffff;
+       position: absolute;
+       margin-left: 10px;
+       text-align: center;
+       top: 230px;
+       left: 14%;;
+     }
+     .contacts{
+         margin-left: -110px;
+         margin-top: 400px;
+         p {
+           color: #ffffff;
+           font-size: 20px;
+         }
+         a{
+           color: $footer-color;
+           text-decoration: none;
+         }
+         a:hover{
+           text-decoration:underline;
+         }
+         .adress{
+           font-size: 15px;
+           margin-top: 30px;
+         }
+         .phones{
+           font-size: 15px;
+           margin-top: 40px;
+         }
+     }
+     .map{
+       background: url("../img/map.png") no-repeat;
+       width: 276px;
+       height: 248px;
+       margin-top: 393px;
+       margin-left: 50px;
+     }
+     .ask_question{
+       max-width: 390px;
+       margin-top: 330px;
+       margin-left: 50px;
+         p {
+           color: #ffffff;
+           font-size: 20px;
+         }
+         form{
+           color:$contacts-color;
+           margin-top: 40px;
+              input{
+                margin-right:5px;
+                padding: 10px;
+                border: none;
+                background-color: #5ee3ff;
+                margin-bottom: 20px;
+              }
+              textarea{
+                 padding: 15px;
+                 border: none;
+                 background-color: #5ee3ff;
+                 margin-bottom: 20px;
+              }
+              .submit_btn{
+                cursor: pointer;
+                background-color: $about-sub-color;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                width: 130px;
+                height: 32px;
+                padding: 10px 30px;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                line-height: 0;
+                color: #ffffff;
+                margin-left: 33%;
+              }
+         }
+     }
+
+
+}

@@ -28,7 +28,7 @@
       padding: 40px 20px 20px 20px; }
     .main_bg .content_wrap .navigation li:hover {
       background-color: #3f9fc9; }
-    .main_bg .content_wrap p {
+    .main_bg .content_wrap .home_content p {
       color: #ffffff;
       font-size: 35px;
       position: absolute;
@@ -200,6 +200,86 @@
       color: #46dcc7;
       margin-left: 70px;
       margin-top: 20px; }
+    .clients_content .clients_item a:hover {
+      text-decoration: underline; }
+
+.contacts_content {
+  display: none; }
+  .contacts_content div {
+    float: left; }
+  .contacts_content .contacts_title {
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 250px;
+    text-align: center;
+    top: 178px; }
+  .contacts_content .contacts_text {
+    color: #ffffff;
+    position: absolute;
+    margin-left: 10px;
+    text-align: center;
+    top: 230px;
+    left: 14%; }
+  .contacts_content .contacts {
+    margin-left: -110px;
+    margin-top: 400px; }
+    .contacts_content .contacts p {
+      color: #ffffff;
+      font-size: 20px; }
+    .contacts_content .contacts a {
+      color: #334960;
+      text-decoration: none; }
+    .contacts_content .contacts a:hover {
+      text-decoration: underline; }
+    .contacts_content .contacts .adress {
+      font-size: 15px;
+      margin-top: 30px; }
+    .contacts_content .contacts .phones {
+      font-size: 15px;
+      margin-top: 40px; }
+  .contacts_content .map {
+    background: url("../img/map.png") no-repeat;
+    width: 276px;
+    height: 248px;
+    margin-top: 393px;
+    margin-left: 50px; }
+  .contacts_content .ask_question {
+    max-width: 390px;
+    margin-top: 330px;
+    margin-left: 50px; }
+    .contacts_content .ask_question p {
+      color: #ffffff;
+      font-size: 20px; }
+    .contacts_content .ask_question form {
+      color: #3f9fc9;
+      margin-top: 40px; }
+      .contacts_content .ask_question form input {
+        margin-right: 5px;
+        padding: 10px;
+        border: none;
+        background-color: #5ee3ff;
+        margin-bottom: 20px; }
+      .contacts_content .ask_question form textarea {
+        padding: 15px;
+        border: none;
+        background-color: #5ee3ff;
+        margin-bottom: 20px; }
+      .contacts_content .ask_question form .submit_btn {
+        cursor: pointer;
+        background-color: #e6655e;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 130px;
+        height: 32px;
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 0;
+        color: #ffffff;
+        margin-left: 33%; }
 
 .service_content {
   display: none; }
@@ -250,13 +330,13 @@
       border-radius: 50%;
       margin-bottom: 20px; }
     .service_content .service_item .service_photo_1 {
-      background-position: -4px -145px; }
+      background-position: -4px -143px; }
     .service_content .service_item .service_photo_2 {
       background-position: -152px -145px; }
     .service_content .service_item .service_photo_3 {
-      background-position: -301px -148px; }
+      background-position: -301px -147px; }
     .service_content .service_item .service_photo_4 {
-      background-position: -450px -148px; }
+      background-position: -449px -145px; }
 
 .footer {
   background-color: #334960;
@@ -273,5 +353,7 @@
       width: 55px;
       height: 20px;
       background: url("../img/footer_logo.png") no-repeat; }
+    .footer .footer_wrap a {
+      color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

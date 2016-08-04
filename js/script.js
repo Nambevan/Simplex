@@ -5,6 +5,7 @@ $(document).ready(function() {
         $('.about_content').css('display','none');
         $('.service_content').css('display','none');
         $('.clients_content').css('display','none');
+        $('.contacts_content').css('display','none');
 
         $('.Home').css('background-color','#3f9fc9');
         $('.About').css('background-color','transparent');
@@ -20,6 +21,7 @@ $(document).ready(function() {
         $('.about_content').css('display','block');
         $('.service_content').css('display','none');
         $('.clients_content').css('display','none');
+        $('.contacts_content').css('display','none');
 
         $('.Home').css('background-color','transparent');
         $('.About').css('background-color','#e6655e');
@@ -35,6 +37,7 @@ $(document).ready(function() {
         $('.about_content').css('display','none');
         $('.service_content').css('display','block');
         $('.clients_content').css('display','none');
+        $('.contacts_content').css('display','none');
 
         $('.Home').css('background-color','transparent');
         $('.About').css('background-color','transparent');
@@ -50,6 +53,7 @@ $(document).ready(function() {
         $('.about_content').css('display','none');
         $('.service_content').css('display','none');
         $('.clients_content').css('display','block');
+        $('.contacts_content').css('display','none');
 
         $('.Home').css('background-color','transparent');
         $('.About').css('background-color','transparent');
@@ -66,6 +70,7 @@ $(document).ready(function() {
         $('.about_content').css('display','none');
         $('.service_content').css('display','none');
         $('.clients_content').css('display','none');
+        $('.contacts_content').css('display','block');
 
         $('.Home').css('background-color','transparent');
         $('.About').css('background-color','transparent');
@@ -74,6 +79,13 @@ $(document).ready(function() {
         $('.Contacts').css('background-color','#334960');
 
     });
+
+    $('.home_content').addClass('animated bounceInLeft');
+    $('.team_item').addClass('animated bounceInLeft');
+    $('.about_up').addClass('animated bounceInRight');
+    $('.service_content').addClass('animated zoomIn');
+    $('.clients_content').addClass('animated fadeIn');
+    $('.contacts_content').addClass('animated pulse');
 
 })
 
